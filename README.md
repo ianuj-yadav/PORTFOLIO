@@ -146,34 +146,6 @@ You can deploy this portfolio using:
 4. Select Main Branch
 5. Save
 
-### Vercel
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Netlify
-
-Drag and drop the project folder into Netlify Dashboard.
-
----
-
-## 📸 Screenshots
-
-Add screenshots here after deployment.
-
-Example:
-
-```markdown
-![Home Page](assets/screenshots/home.png)
-
-![Projects Section](assets/screenshots/projects.png)
-
-![Contact Section](assets/screenshots/contact.png)
-```
-
----
 
 ## 🧑 About Me
 
@@ -299,14 +271,6 @@ If you like this project, don't forget to:
 GitHub:
 https://github.com/ianuj-yadav
 
-LinkedIn:
-Add Your LinkedIn Profile
-
-Portfolio:
-Add Your Portfolio URL
-
-Email:
-Add Your Email Address
 
 ---
 
