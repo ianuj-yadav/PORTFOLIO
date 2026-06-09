@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Yadav - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">ANUJ</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name">
+                    <span class="typing-text"></span>
+                    <span class="cursor-blink">|</span>
+                </h1>
+                <p class="hero-subtitle">Computer Science Student & Web Developer</p>
+                <p class="hero-description">I am a computer science engineering student who is an enthusiast in technology. I effectively balance academics, event management, and extracurricular activities with dedication and teamwork.</p>
+            </div>
+
+            <div class="hero-card">
+                <div class="card-3d">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="icon">📧</span>
+                            <span>ianujyadav28@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📱</span>
+                            <span>+91 78380 42623</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <span>New Delhi, India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('projects')">View Projects</button>
+                <a href="https://drive.usercontent.google.com/download?id=1lOUYbg3lLGc7VwzRFLlZDWxp19GXpJ0S&export=download&authuser=0&confirm=t&uuid=f3cfa50b-b089-4031-8766-53662b7f8556&at=AN8xHoo2lnaTbpSlTrurbCsmHxG0:1758291187122" class="btn btn-secondary">Download resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my background and skills</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-left">
+                    <div class="about-text">
+                        <p>I'm a passionate Computer Science Engineering student at Amity University Greater Noida, currently in my second year. My journey in technology started early, and I've been consistently working on improving my skills in both theoretical
+                            concepts and practical applications.</p>
+
+                        <div class="achievements">
+                            <h3>Achievements</h3>
+                            <div class="achievement-cards">
+                                <div class="achievement-card">
+                                    <div class="achievement-icon">🏆</div>
+                                    <h4>All India Science Olympiad</h4>
+                                    <p>4th Runner Up</p>
+                                    <span>National level science competition achievement</span>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement-icon">🥈</div>
+                                    <h4>Delhi English Olympiad</h4>
+                                    <p>2nd Runner Up</p>
+                                    <span>State level English language competition</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="education-timeline">
+                            <h3>Education</h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h4>Bachelor of Computer Science</h4>
+                                        <p>Amity University Greater Noida</p>
+                                        <span>2023-2027</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h4>High School</h4>
+                                        <p>Kendriya Vidyalaya Gole Market New Delhi</p>
+                                        <span>2012-2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-right">
+                    <div class="skills-section">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-container">
+                            <div class="skill-item">
+                                <div class="skill-icon rotating-icon">🔧</div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Data Structures & Algorithms (C)</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="85"></div>
+                                        <span class="skill-percentage">85%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-icon rotating-icon">☕</div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Data Structures & Algorithms (Java)</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="80"></div>
+                                        <span class="skill-percentage">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-icon rotating-icon">🌐</div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Web Development</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="90"></div>
+                                        <span class="skill-percentage">90%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-icon rotating-icon">📄</div>
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML/CSS</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="95"></div>
+                                        <span class="skill-percentage">95%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-icon rotating-icon">⚡</div>
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="85"></div>
+                                        <span class="skill-percentage">85%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-icon rotating-icon">⚛️</div>
+                                <div class="skill-info">
+                                    <span class="skill-name">React.js</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="75"></div>
+                                        <span class="skill-percentage">55%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="soft-skills">
+                            <h3>Soft Skills</h3>
+                            <div class="soft-skills-grid">
+                                <div class="soft-skill">Communication</div>
+                                <div class="soft-skill">Teamwork</div>
+                                <div class="soft-skill">Creative</div>
+                                <div class="soft-skill">Critical Thinking</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my recent work and development projects</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-btn">View Details</button>
+                                <a href="https://github.com/Nyxy4Anuj/portfolio.git" class="project-btn secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Modern 3D portfolio with interactive animations and smooth user experience</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Three.js</span>
+                        </div>
+                        <span class="project-status in-progress">In Progress</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-btn">View Details</button>
+                                <button class="project-btn secondary">GitHub</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>DSA Practice Platform</h3>
+                        <p>Web platform for practicing data structures and algorithms with interactive coding environment</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Web Development</span>
+                        </div>
+                        <span class="project-status planning">Planning</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-btn">View Details</button>
+                                <a href="https://github.com/Nyxy4Anuj/Calendar-Website-SNF-.git" class="project-btn secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Lunar calender</h3>
+                        <p>sophisticated bilingual (Hindi-English) lunar calendar website that serves as a comprehensive cultural and historical resource</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">HTML</span>
+                        </div>
+                        <span class="project-status concept">Completed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience & Timeline</h2>
+                <p class="section-subtitle">My journey through education and professional development</p>
+            </div>
+
+            <div class="experience-timeline">
+                <div class="timeline-container">
+                    <div class="timeline-item-exp">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content-exp">
+                            <div class="floating-card">
+                                <h3>Job Simulation Participant</h3>
+                                <h4>Forage</h4>
+                                <p class="timeline-duration">Completed</p>
+                                <p>Participating in industry job simulations to gain practical experience and enhance my understanding of real-world software development practices.</p>
+                                <div class="experience-skills">
+                                    <span class="skill-badge">Industry Simulation</span>
+                                    <span class="skill-badge">Practical Learning</span>
+                                    <span class="skill-badge">Professional Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss opportunities and collaborate on exciting projects</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-left">
+                    <div class="contact-info-section">
+                        <h3>Contact Information</h3>
+
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">📧</div>
+                                <div>
+                                    <span class="contact-label">Email</span>
+                                    <a href="mailto:letbesocial4ay@gmail.com" class="contact-value">ianujyadav28@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">📱</div>
+                                <div>
+                                    <span class="contact-label">Phone</span>
+                                    <a href="tel:+917838042623" class="contact-value">+91 78380 42623</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">💼</div>
+                                <div>
+                                    <span class="contact-label">LinkedIn</span>
+                                    <a href="https://www.linkedin.com/in/anuj-yadav07" target="_blank" class="contact-value">linkedin.com/in/anuj-yadav07</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">📍</div>
+                                <div>
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">New Delhi, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form class="contact-form">
+                        <div class="floating-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required class="form-input">
+                                <label for="name" class="form-label">Your Name</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required class="form-input">
+                                <label for="email" class="form-label">Your Email</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" required class="form-input">
+                                <label for="subject" class="form-label">Subject</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" required class="form-input"></textarea>
+                                <label for="message" class="form-label">Your Message</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary contact-submit">
+                                Send Message
+                                <span class="btn-arrow">→</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Anuj Yadav. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/anuj-yadav07" target="_blank" class="social-link">LinkedIn</a>
+                    <a href="mailto:letbesocial4ay@gmail.com" class="social-link">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
