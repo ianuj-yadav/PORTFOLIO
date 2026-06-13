@@ -213,7 +213,6 @@ Planned improvements include:
 
 * 🌙 Dark Mode
 * 🌍 Multi-language Support
-* 🤖 AI Assistant Integration
 * 📊 Analytics Dashboard
 * 📝 Blog Section
 * 🎨 Improved Animations
